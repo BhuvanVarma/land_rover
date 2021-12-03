@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+    
+}
+
+/*navbar*/
+
+.nav{   
+    position: fixed;
+	height: 70px;
+	width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 53px 15px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.46);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.logo{
+    padding-left: 30px;
+    display: flex;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+.back-home{
+    padding-right: 30px;
+}
+
+.car-name{
+    font-size: 23px;
+}
+
+/*sections*/
+
+.sec{
+    height: 100vh;
+    background-color: #f0f7f4;
+    padding: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img{
+    height: 360px;
+    width: 640px;
+    border-radius: 20px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.b{
+    height: 360px;
+    width: 640px;
+}
+
+.c{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.spec{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box:nth-child(2){
+    border-left: 1px solid #000;
+}
+
+.box:nth-child(3){
+    border-left: 1px solid #000;
+}
+
+.box:nth-child(4){
+    border-left: 1px solid #000;
+}
+
+.box:nth-child(5){
+    border-left: 1px solid #000;
+}
+
+.box:nth-child(6){
+    border-left: 1px solid #000;
+}
+
+
+.img-box{
+    height: 60px;
+    width: 60px;
+}
+
+.head-box{
+    font-weight: 600;
+}
+
+.back{
+    font-size: 18px;
+    padding: 10px;
+}
+
+.back-home{
+    font-size: 17px;
+}

@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+    
+}
+
+/*navbar*/
+
+.nav{   
+    position: fixed;
+	height: 70px;
+	width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 53px 15px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    
+
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.46);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.logo{
+    padding-left: 30px;
+    display: flex;
+}
+
+.nav-links{
+	display: flex;
+	list-style: none;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.links{
+	padding: 20px 40px 20px 0px;
+	font-size: 20px;
+}
+
+.links a:hover {
+    border-bottom: #36622B solid 4px;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+/*sections*/
+
+.sec{
+    height: 100vh;
+}
+
+/*home*/
+.home{
+    background-image: url(images/home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    height: 300px;
+    width: 400px;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.46);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    border-radius: 25px;
+    position: relative;
+    top: 32%;
+    left: 67%;
+    font-size: 20px;
+}
+
+.box2{
+    height: 300px;
+    width: 400px;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.46);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    border-radius: 25px;
+    position: relative;
+    top: 32%;
+    left: 10%;
+    font-size: 20px;
+}
+
+.car-box{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.car-name{
+    font-size: 30px;
+    font-weight: 1200;
+}
+
+.car-qouta{
+    font-size: 18px;
+}
+
+.btn{
+	border-style: none;
+	outline: none;
+	height: 60px;
+	width: 300px;
+	background-color: rgb(3, 3, 3);
+	color: white;
+	font-size: 16px;
+	border-radius: 25px;
+}
+
+.btn:hover{
+    border: 1px solid rgb(3, 3, 3);
+	outline: none;
+	height: 60px;
+	width: 300px;
+	background-color: #fff;
+	color: rgb(3, 3, 3);
+	font-size: 16px;
+	border-radius: 25px;
+}
+
+.fa-arrow-right{
+    padding-left: 10px;
+}
+
+.fa-arrow-left{
+    padding-right: 10px;
+}
+
+.h1{
+    margin: auto;
+    width: 80%;
+    padding-top: 30px;
+    font-weight: 200;
+}
+
+.span{
+    font-weight: 900;
+}
+
+
+/*rangerover*/
+.rangerover{
+    background-image: url(images/rangerover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*sport*/
+.sport{
+    background-image: url(images/sport.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*defender*/
+.defender{
+    background-image: url(images/defender.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*explore*/
+#explore{
+    background-color: antiquewhite;
+}
+.explore{
+    padding: 100px;
+    height: 75vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.e-box{
+    padding: 30px;
+    width: 25%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.e-head{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.e-box:nth-child(2){
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.e-box:nth-child(3){
+    border-right: 1px solid black;
+}
+.e-img{
+    height: 100px;
+    width: 100px;
+}
+
+.e-box a:hover{
+    color: #36622B;
+}
+
+.e-head:hover{
+    color: #36622B;
+    font-weight: 600;
+}
+
+/*footer*/
+.footer{
+    background-color: #171717;
+    height: 25vh;
+    width: 100vw;
+    padding:20px 10% 5px 10%;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.fsub a {
+    text-decoration: none;
+    color: #DDDDDD;
+}
+
+.fsub{
+    font-size: 14px;
+    color: #DDDDDD;
+}
+
+.fhead{
+    font-size: 18px;
+}
+
+.flogo{
+    position: relative;
+    bottom: 40px;
+}
